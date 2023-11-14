@@ -1,0 +1,40 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20.000000000000227" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="71.69164288355864" scrolly="26.91366488067547" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="show" id="p}R{%L%U(WcJYRmZY#*F" x="-10" y="10">
+      <value name="VALUE">
+        <shadow type="objectList" id="]TdcH2]Fd?dWN9au$-xj">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="y7eFq)!K]UpJj`Yq[Www">
+          <field name="FIELDNAME">farmer_group</field>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id="vJX:R]o{kZIDopY[(KLC">
+          <value name="VALUE">
+            <shadow type="objectList" id="p,dThcHVzTe^si=E%m,X">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="MVJvjM8|LN^(ncWsf%cK">
+              <field name="FIELDNAME">indicator_group</field>
+            </block>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="[=vxNk~HGzz$6Jwxe,)g">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">AUTO</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="XF=.ztcswkPxS:Qx[:5y">
+                  <field name="FIELDNAME">farmer_armature</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="37" viewport-w="614.4" viewport-h="369.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
